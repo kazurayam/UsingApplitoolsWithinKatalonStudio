@@ -1,0 +1,1865 @@
+1 actionable task: 1 executed
+:applitools-dependencies$ gradle dependencies
+Download https://repo.maven.apache.org/maven2/com/applitools/eyes-selenium-java3/3.2/eyes-selenium-java3-3.2.pom
+Download https://repo.maven.apache.org/maven2/com/applitools/eyes-sdk-java3-parent/3.2/eyes-sdk-java3-parent-3.2.pom
+Download https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/maven-metadata.xml
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Dependencies for source set 'main' (deprecated, use 'implementation ' instead).
+
+Download https://repo.maven.apache.org/maven2/io/appium/java-client/maven-metadata.xml
+Download https://repo.maven.apache.org/maven2/io/appium/java-client/6.0.0-BETA4/java-client-6.0.0-BETA4.pom
+Download https://repo.maven.apache.org/maven2/com/applitools/eyes-sdk-core-java3-jersey2x/3.2/eyes-sdk-core-java3-jersey2x-3.2.pom
+Download https://repo.maven.apache.org/maven2/com/applitools/eyes-common-java3/3.2/eyes-common-java3-3.2.pom
+Download https://repo.maven.apache.org/maven2/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.pom
+Download https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.1/jackson-databind-2.5.1.pom
+Download https://repo.maven.apache.org/maven2/com/applitools/eyes-connectivity-java3-jersey2x/3.2/eyes-connectivity-java3-jersey2x-3.2.pom
+Download https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.6/commons-validator-1.6.pom
+Download https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom
+Download https://repo.maven.apache.org/maven2/cglib/cglib/3.2.6/cglib-3.2.6.pom
+Download https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.3.RELEASE/spring-context-5.0.3.RELEASE.pom
+Download https://repo.maven.apache.org/maven2/cglib/cglib-parent/3.2.6/cglib-parent-3.2.6.pom
+Download https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+Download https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.pom
+Download https://repo.maven.apache.org/maven2/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.pom
+Download https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom
+Download https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.po
+Download https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.16/jersey-client-2.16.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.16/jersey-apache-connector-2.16.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.16/project-2.16.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/project/2.16/project-2.16.pom
+Download https://repo.maven.apache.org/maven2/net/java/jvnet-parent/4/jvnet-parent-4.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.4.0-b09/hk2-bom-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom
+Download https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.pom
+Download https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.pom
+Download https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.3.RELEASE/spring-beans-5.0.3.RELEASE.pom
+Download https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.3.RELEASE/spring-core-5.0.3.RELEASE.pom
+Download https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.3.RELEASE/spring-aop-5.0.3.RELEASE.pom
+Download https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.3.RELEASE/spring-expression-5.0.3.RELEASE.pom
+Download https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Bismuth-SR5/reactor-bom-Bismuth-SR5.pom
+Download https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.20.Final/netty-bom-4.1.20.Final.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.16/jersey-common-2.16.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b09/hk2-api-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b09/javax.inject-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b09/hk2-locator-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.4.0-b09/hk2-parent-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.4.0-b09/external-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.3.RELEASE/spring-jcl-5.0.3.RELEASE.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.16/jersey-guava-2.16.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.16/project-2.16.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/pom/8/pom-8.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.16/project-2.16.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b09/aopalliance-repackaged-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b09/hk2-utils-2.4.0-b09.pom
+Download https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.pom
+Download https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.5/httpcomponents-client-4.5.5.pom
+Download https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/10/httpcomponents-parent-10.pom
+Download https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.pom
+Download https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.9/httpcomponents-core-4.4.9.pom
+Download https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/9/httpcomponents-parent-9.pom
+
+> Task :dependencies
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+compileClasspath - Compile classpath for source set 'main'.
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+compileOnly - Compile only dependencies for source set 'main'.
+No dependencies
+
+default - Configuration for default artifacts.
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+implementation - Implementation only dependencies for source set 'main'. (n)
+No dependencies
+
+runtime - Runtime dependencies for source set 'main' (deprecated, use 'runtimeOnly ' instead).
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+runtimeClasspath - Runtime classpath of source set 'main'.
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for source set 'main'. (n)
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testCompile - Dependencies for source set 'test' (deprecated, use 'testImplementation ' instead).
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+testCompileClasspath - Compile classpath for source set 'test'.
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+testCompileOnly - Compile only dependencies for source set 'test'.
+No dependencies
+
+testImplementation - Implementation only dependencies for source set 'test'. (n)
+No dependencies
+
+testRuntime - Runtime dependencies for source set 'test' (deprecated, use 'testRuntimeOnly ' instead).
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+testRuntimeClasspath - Runtime classpath of source set 'test'.
+\--- com.applitools:eyes-selenium-java3:3.2
+     +--- com.applitools:eyes-common-java3:3.2
+     |    +--- org.imgscalr:imgscalr-lib:4.2
+     |    +--- commons-codec:commons-codec:1.10
+     |    \--- com.fasterxml.jackson.core:jackson-databind:2.5.1
+     |         +--- com.fasterxml.jackson.core:jackson-annotations:2.5.0
+     |         \--- com.fasterxml.jackson.core:jackson-core:2.5.1
+     +--- com.applitools:eyes-sdk-core-java3-jersey2x:3.2
+     |    +--- com.applitools:eyes-common-java3:3.2 (*)
+     |    \--- com.applitools:eyes-connectivity-java3-jersey2x:3.2
+     |         +--- com.applitools:eyes-common-java3:3.2 (*)
+     |         +--- org.glassfish.jersey.connectors:jersey-apache-connector:2.16
+     |         |    +--- org.apache.httpcomponents:httpclient:4.3.1 -> 4.5.5
+     |         |    |    +--- org.apache.httpcomponents:httpcore:4.4.9
+     |         |    |    +--- commons-logging:commons-logging:1.2
+     |         |    |    \--- commons-codec:commons-codec:1.10
+     |         |    +--- org.glassfish.jersey.core:jersey-common:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- javax.annotation:javax.annotation-api:1.2
+     |         |    |    +--- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.16
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09
+     |         |    |    |    +--- javax.inject:javax.inject:1
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09
+     |         |    |    |    |    \--- javax.inject:javax.inject:1
+     |         |    |    |    \--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    +--- org.glassfish.hk2:hk2-locator:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b09
+     |         |    |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    |    +--- org.glassfish.hk2:hk2-utils:2.4.0-b09 (*)
+     |         |    |    |    \--- org.javassist:javassist:3.18.1-GA
+     |         |    |    \--- org.glassfish.hk2:osgi-resource-locator:1.0.1
+     |         |    +--- org.glassfish.jersey.core:jersey-client:2.16
+     |         |    |    +--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         |    |    +--- org.glassfish.jersey.core:jersey-common:2.16 (*)
+     |         |    |    +--- org.glassfish.hk2:hk2-api:2.4.0-b09 (*)
+     |         |    |    +--- org.glassfish.hk2.external:javax.inject:2.4.0-b09
+     |         |    |    \--- org.glassfish.hk2:hk2-locator:2.4.0-b09 (*)
+     |         |    \--- javax.ws.rs:javax.ws.rs-api:2.0.1
+     |         \--- org.glassfish.jersey.core:jersey-client:2.16 (*)
+     +--- org.seleniumhq.selenium:selenium-java:latest.release -> 3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    +--- org.seleniumhq.selenium:selenium-chrome-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0
+     |    |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    |    +--- commons-codec:commons-codec:1.10
+     |    |    |    +--- commons-logging:commons-logging:1.2
+     |    |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    |    +--- com.google.guava:guava:23.6-jre
+     |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    +--- org.checkerframework:checker-compat-qual:2.0.0
+     |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.1.3
+     |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1
+     |    |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    |    \--- com.squareup.okio:okio:1.13.0
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-edge-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-firefox-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-ie-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-opera-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    +--- org.seleniumhq.selenium:selenium-safari-driver:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- org.seleniumhq.selenium:selenium-support:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-api:3.11.0
+     |    |    +--- org.seleniumhq.selenium:selenium-remote-driver:3.11.0 (*)
+     |    |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    |    +--- org.apache.commons:commons-exec:1.3
+     |    |    +--- commons-codec:commons-codec:1.10
+     |    |    +--- commons-logging:commons-logging:1.2
+     |    |    +--- com.google.code.gson:gson:2.8.2
+     |    |    +--- com.google.guava:guava:23.6-jre (*)
+     |    |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    |    \--- com.squareup.okio:okio:1.13.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- org.apache.commons:commons-exec:1.3
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- commons-logging:commons-logging:1.2
+     |    +--- com.google.code.gson:gson:2.8.2
+     |    +--- com.google.guava:guava:23.6-jre (*)
+     |    +--- org.apache.httpcomponents:httpclient:4.5.3 -> 4.5.5 (*)
+     |    +--- org.apache.httpcomponents:httpcore:4.4.6 -> 4.4.9
+     |    +--- com.squareup.okhttp3:okhttp:3.9.1 (*)
+     |    \--- com.squareup.okio:okio:1.13.0
+     \--- io.appium:java-client:latest.release -> 6.0.0-BETA4
+          +--- org.seleniumhq.selenium:selenium-java:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-support:3.9.1 -> 3.11.0 (*)
+          +--- org.seleniumhq.selenium:selenium-api:3.9.1 -> 3.11.0
+          +--- com.google.code.gson:gson:2.8.2
+          +--- org.apache.httpcomponents:httpclient:4.5.5 (*)
+          +--- cglib:cglib:3.2.6
+          |    +--- org.ow2.asm:asm:6.0
+          |    \--- org.apache.ant:ant:1.9.6
+          |         \--- org.apache.ant:ant-launcher:1.9.6
+          +--- commons-validator:commons-validator:1.6
+          |    +--- commons-beanutils:commons-beanutils:1.9.2
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- commons-collections:commons-collections:3.2.1 -> 3.2.2
+          |    +--- commons-digester:commons-digester:1.8.1
+          |    +--- commons-logging:commons-logging:1.2
+          |    \--- commons-collections:commons-collections:3.2.2
+          +--- org.apache.commons:commons-lang3:3.7
+          +--- commons-io:commons-io:2.6
+          +--- org.springframework:spring-context:5.0.3.RELEASE
+          |    +--- org.springframework:spring-aop:5.0.3.RELEASE
+          |    |    +--- org.springframework:spring-beans:5.0.3.RELEASE
+          |    |    |    \--- org.springframework:spring-core:5.0.3.RELEASE
+          |    |    |         \--- org.springframework:spring-jcl:5.0.3.RELEASE
+          |    |    \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-beans:5.0.3.RELEASE (*)
+          |    +--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          |    \--- org.springframework:spring-expression:5.0.3.RELEASE
+          |         \--- org.springframework:spring-core:5.0.3.RELEASE (*)
+          +--- org.aspectj:aspectjweaver:1.8.13
+          \--- org.openpnp:opencv:3.2.0-1
+
+testRuntimeOnly - Runtime only dependencies for source set 'test'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+
+BUILD SUCCESSFUL in 12s
+1 actionable task: 1 executed
+:applitools-dependencies$

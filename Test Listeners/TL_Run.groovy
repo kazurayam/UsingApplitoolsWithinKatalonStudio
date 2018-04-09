@@ -23,7 +23,7 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
 import com.applitools.eyes.BatchInfo
-import com.applitools.eyes.Eyes
+import com.applitools.eyes.selenium.Eyes
 
 
 class TL_Run {
