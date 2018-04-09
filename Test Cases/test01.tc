@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>329dc9bb-d24c-40c8-bc4e-c138e3bafeab</testCaseGuid>
+   <variable>
+      <defaultValue>1024</defaultValue>
+      <description></description>
+      <id>14743001-590f-460c-bf51-da7015e65804</id>
+      <masked>false</masked>
+      <name>rectangleWidth</name>
+   </variable>
+   <variable>
+      <defaultValue>768</defaultValue>
+      <description></description>
+      <id>7b223de3-7d64-4494-a955-f31449462981</id>
+      <masked>false</masked>
+      <name>rectangleHeight</name>
+   </variable>
+</TestCaseEntity>
