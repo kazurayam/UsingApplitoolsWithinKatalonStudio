@@ -31,6 +31,7 @@ Applitools has an article published with title ['Walkthrough : Running a visual 
 4. load "Test Cases/test01" and Run it with any browser you have. I used Firefox.
 5. Ensure the Test Case ran successfully
 6. With browser you want to sign in [Applitools Eyes dashbord](https://applitools.com/users/login) with your account.
-7. In the [https://eys.applitools.com/app/test-results]( https://eyes.applitools.com/app/test-results/) page you would find a set of screenshots transfered to Applitools: ![like this](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/tree/master/docs/images/applitools_eyes.PNG)
+7. In the [https://eys.applitools.com/app/test-results]( https://eyes.applitools.com/app/test-results/) page you would find a set of screenshots transfered to Applitools: ![like this](
+    https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/docs/images/applitools_eys.PNG?raw=true)
 
 # Points to be remarked
