@@ -31,27 +31,27 @@ So I replaced 'native Selenium WebDriver' with 'Katalon Studio'. I modified the 
 # How to run the Demo
 
 1. You need to register yourself to [Applitools](https://applitools.com/users/register) and obtain your Applitools API Key.
-2. You want to create an environment variable `APPLITOOLS_API_KEY` to set the API Key as its value.
+2. On your PC, you want to create an environment variable `APPLITOOLS_API_KEY` to set the API Key as its value.
 3. git clone [this project](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio) to your PC. Start your Katalon Studio. Open the downloaded project.
-4. load "Test Cases/test01" and Run it with any browser you have. I used Firefox.
+4. load "Test Cases/test01" and Run it with Firefox or Chrome.
 5. Ensure the Test Case ran successfully
-6. With browser you want to sign in [Applitools Eyes dashbord](https://applitools.com/users/login) with your account.
-7. In the [https://eys.applitools.com/app/test-results]( https://eyes.applitools.com/app/test-results/) page you would find a set of screenshots transfered to Applitools: ![like this](
+6. In browser you want to sign in [Applitools Eyes dashbord](https://applitools.com/users/login) with your account.
+7. In the [https://eys.applitools.com/app/test-results]( https://eyes.applitools.com/app/test-results/) page you will find a set of screenshots transfered to the Applitools service: ![like this](
     https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/docs/images/applitools_eys.PNG?raw=true)
 
 # Points to be remarked
 
 ## External dependencies
 
-Katalon Studio has its own set of dependencies, and Applitools has its own. Nobody takes responsibility of making these two sets consistent. I think this would be the point which makes my hack operational or not.
+Katalon Studio has its own set of dependencies. Applitools has its own. Nobody takes responsibility of making these two consistent.
 
 1. Applitools requires a lot of external libiraries. See ['Walkthrough : Running a visual test and reviewing test results' Getting SDK]( https://applitools.com/docs/topics/overview/walkthough-example.html) to see how to download the SDK Zip. The Java SDK contains 63 jar files.
-2. I registered [16 jar files](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/tree/master/Drivers) out of the Applitools SDK into the Katalon Studio's project, as [described in the Katalon document](https://docs.katalon.com/display/KD/External+Libraries).
-3. I have chosen 16 jar files by try-and-error steps. When I encounter a java.lang.NoClassDeffFoundErr, I looked for an appropriate jar file in the downloaded SDK, and put it into Katalon Studio. Therefore you are quite likely to encounter more of java.lang.NoClassDeffFoundError.
+2. I picked up [16 jar files](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/tree/master/Drivers) out of the Applitools SDK and registered them into the Katalon Studio's project, as [described in the Katalon document](https://docs.katalon.com/display/KD/External+Libraries).
+3. I have chosen 16 jar files by try-and-error basis. When I encounter a java.lang.NoClassDeffFoundError, I looked for an appropriate jar file in the downloaded SDK, and added it into Katalon Studio. I am not sure if these 16 jars are enough.
 
-## how to code
+## note on coding
 
-As Test Case  [test01](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/Scripts/test01/Script1523260020936.groovy) shows, the order of following steps is important. This works:
+As Test Case  [test01](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/Scripts/test01/Script1523260020936.groovy) shows, this works:
 ```
 WebUI.openBrowser('')
 WebDriver innerDriver = DF.getWebDriver()
@@ -59,10 +59,17 @@ Eyes eyes = createEyes()
 eyes.open(innerDriver, GlobalVariable.appName,
      GlobalVariable.testName, viewportSize)
 ```
-
+First you open the browser by calling WebUI.openBrowser(), then you get the reference to the WebDriver object.
 
 But this does not work:
 ```
 WebDriver innerDriver = DF.getWebDriver()
 WebUI.openBrowser('')
 ```
+
+You will encounter an Exception which sais:
+```
+Test Cases/test01 FAILED because (of) com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+```
+
+I hope this helps.
