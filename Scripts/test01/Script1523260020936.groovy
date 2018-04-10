@@ -23,20 +23,19 @@ import com.applitools.eyes.RectangleSize as RectangleSize
 import com.applitools.eyes.TestResults as TestResults
 import com.applitools.eyes.selenium.Eyes as Eyes
 import com.applitools.eyes.BatchInfo
+import com.applitools.eyes.ProxySettings
 
 import com.kms.katalon.core.webui.driver.DriverFactory as DF
 import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.Keys as Keys
-
 
 RectangleSize viewportSize = new RectangleSize(
     GlobalVariable.viewportSizeLandscapeWidth,
     GlobalVariable.viewportSizeLandscapeHeight)
 
-
-WebUI.comment("now we will open browser")
+WebUI.comment("now we open browser")
 WebUI.openBrowser('')
 
+// instanciate Eyes object based on the WebDriver object managed by Katalon Studio
 WebDriver innerDriver = DF.getWebDriver()
 Eyes eyes = createEyes()
 eyes.open(innerDriver,
@@ -66,6 +65,10 @@ static private Eyes createEyes() {
         BatchInfo batchInfo = new BatchInfo("Hello World 2 Batch")
         eyes.setBatch(batchInfo)
     }
+    
+    // I needed to set PROXY to the Eyes
+    eyes.setProxy(new ProxySettings('http://172.24.2.10:8080'))
+    
     return eyes
 }
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>test01</name>
    <tag></tag>
-   <comment></comment>
+   <comment>now we open browser</comment>
    <testCaseGuid>329dc9bb-d24c-40c8-bc4e-c138e3bafeab</testCaseGuid>
    <variable>
       <defaultValue>1024</defaultValue>
