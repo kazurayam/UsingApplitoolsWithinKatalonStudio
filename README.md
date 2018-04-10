@@ -9,13 +9,13 @@ This will show you how I managed to use [Applitools](https://applitools.com/) wi
 
 # Why I made this
 
-I have experienced the feature of [taking screenshot by Katalon keyword](https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot) and found that taking screenshots as PNG files is just a starting point. I have to view all the images taken, think about them, and find problems if any --- these tasks are difficult enough without appropriate tool's support.
+I have experienced [taking screenshot by Katalon keyword](https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot) and found that taking screenshots is not enough. Taking screenshots is just a start. I will have to review all the images, think about them, and find problems if any. These tasks are difficult enough without appropriate tool's support.
 
-One day I read a post in the [Katalon Community Forum](https://forum.katalon.com/discussions):
+One day I read a discussion in the [Katalon Community Forum](https://forum.katalon.com/discussions):
 
-- [Applitools | Anyone had success in setting up within Katalon](https://forum.katalon.com/discussion/5628/applitools-anyone-had-success-in-setting-up-within-katalon)
+- ['Applitools | Anyone had success in setting up within Katalon'](https://forum.katalon.com/discussion/5628/applitools-anyone-had-success-in-setting-up-within-katalon)
 
-Until then I was not aware of [Applitools](https://applitools.com/) then and got interested in the idea of using Applitools within [Katalon Studio](https://www.katalon.com/).
+Until then I was not aware of [Applitools](https://applitools.com/). I got interested in it and thought the idea of using Applitools within [Katalon Studio](https://www.katalon.com/) would worth a try.
 
 After a dozen hours of hacking, I have created a Katalon project here. In this demo project, a Katalon Test Case invokes Applitools Eyes API. This demo works for me.
 
@@ -24,7 +24,9 @@ After a dozen hours of hacking, I have created a Katalon project here. In this d
 Applitools has a published article
 - ['Walkthrough : Running a visual test and reviewing test results']( https://applitools.com/docs/topics/overview/walkthough-example.html)
 
-This article gives me an example of writing and running a visual test using native Selenium WebDriver combined with Applitools' Eyes SDK. Here I interpreted 'natve Selenium WebDriver' to 'Katalon Studio'. I mimicked the published example. I modifed it slightly to form a Katalon Test Case in Groovy.
+This article gives me an example of writing and running a visual test using native Selenium WebDriver combined with Applitools' Eyes SDK.
+
+So I replaced 'native Selenium WebDriver' with 'Katalon Studio'. I modified the published example slightly to form a Katalon Test Case in Groovy.
 
 # How to run the Demo
 
