@@ -19,43 +19,55 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
-
 import com.applitools.eyes.RectangleSize as RectangleSize
 import com.applitools.eyes.TestResults as TestResults
 import com.applitools.eyes.selenium.Eyes as Eyes
+import com.applitools.eyes.BatchInfo
+
 import com.kms.katalon.core.webui.driver.DriverFactory as DF
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.Keys as Keys
+
 
 RectangleSize viewportSize = new RectangleSize(
     GlobalVariable.viewportSizeLandscapeWidth,
     GlobalVariable.viewportSizeLandscapeHeight)
 
-//WebDriver innerDriver = DF.getWebDriver()
-//Eyes eyes = GlobalVariable.eyes
-//WebDriver driver = eyes.open(innerDriver,
-//    GlobalVariable.appName, GlobalVariable.testName, viewportSize)
 
+WebUI.comment("now we will open browser")
 WebUI.openBrowser('')
 
+WebDriver innerDriver = DF.getWebDriver()
+Eyes eyes = createEyes()
+eyes.open(innerDriver,
+    GlobalVariable.appName, GlobalVariable.testName, viewportSize)
+
 WebUI.navigateToUrl('https://applitools.com/helloworld2')
-
 eyes.checkWindow('Before enter name')
-
 WebUI.setText(findTestObject('Page_Applitools/input_name'), 'My Name')
-
 eyes.checkWindow('After enter name')
-
 WebUI.click(findTestObject('Page_Applitools/button_Click me'))
-
 eyes.checkWindow('After Click')
-
 TestResults result = eyes.close(false)
-
 WebUI.closeBrowser()
 
-
+static private Eyes createEyes() {
+    URI serverURL
+    try {
+        serverURL = new URI(GlobalVariable.serverURLstr)
+    } catch (URISyntaxException e) {
+        println("URI Exception")
+        return
+    }
+    Eyes eyes = new Eyes(serverURL)
+    String apiKey = System.getenv("APPLITOOLS_API_KEY")
+    eyes.setApiKey(apiKey)
+    if (GlobalVariable.runAsBatch) {
+        BatchInfo batchInfo = new BatchInfo("Hello World 2 Batch")
+        eyes.setBatch(batchInfo)
+    }
+    return eyes
+}
 
 static private void handleResult(TestResults result) {
     String resultStr
