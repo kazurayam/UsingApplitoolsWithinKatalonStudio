@@ -49,9 +49,9 @@ Katalon Studio has its own set of dependencies. Applitools has its own. Nobody t
 2. I picked up [16 jar files](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/tree/master/Drivers) out of the Applitools SDK and registered them into the Katalon Studio's project, as [described in the Katalon document](https://docs.katalon.com/display/KD/External+Libraries).
 3. I have chosen 16 jar files by try-and-error basis. When I encounter a java.lang.NoClassDeffFoundError, I looked for an appropriate jar file in the downloaded SDK, and added it into Katalon Studio. I am not sure if these 16 jars are enough.
 
-## note on coding
+## Notes on coding
 
-As Test Case  [test01](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/Scripts/test01/Script1523260020936.groovy) shows, this works:
+As you can see  [test01](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/Scripts/test01/Script1523260020936.groovy), this sequence works:
 ```
 WebUI.openBrowser('')
 WebDriver innerDriver = DF.getWebDriver()
@@ -59,7 +59,7 @@ Eyes eyes = createEyes()
 eyes.open(innerDriver, GlobalVariable.appName,
      GlobalVariable.testName, viewportSize)
 ```
-First you open the browser by calling WebUI.openBrowser(), then you get the reference to the WebDriver object.
+First you open the browser by calling WebUI.openBrowser(), after that you should get the reference to the WebDriver object created by Katalon Studio.
 
 But this does not work:
 ```
@@ -71,5 +71,9 @@ You will encounter an Exception which sais:
 ```
 Test Cases/test01 FAILED because (of) com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
 ```
+
+DriverFactory.getWebDriver() throwed exception if invoked before openBrowser()
+
+
 
 I hope this helps.
