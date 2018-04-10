@@ -21,7 +21,10 @@ After a dozen hours of hacking, I have created a Katalon project here. In this d
 
 # How this project is designed
 
-Applitools has an article published with title ['Walkthrough : Running a visual test and reviewing test results']( https://applitools.com/docs/topics/overview/walkthough-example.html). This article gives me an example of writing and running a visual test using native Selenium WebDriver combined with Applitools' Eyes SDK. Here I interpreted 'natve Selenium WebDriver' to 'Katalon Studio'. I mimicked the published example. I modifed it slightly to form a Katalon Test Case in Groovy.
+Applitools has a published article
+- ['Walkthrough : Running a visual test and reviewing test results']( https://applitools.com/docs/topics/overview/walkthough-example.html)
+
+This article gives me an example of writing and running a visual test using native Selenium WebDriver combined with Applitools' Eyes SDK. Here I interpreted 'natve Selenium WebDriver' to 'Katalon Studio'. I mimicked the published example. I modifed it slightly to form a Katalon Test Case in Groovy.
 
 # How to run the Demo
 
@@ -35,3 +38,29 @@ Applitools has an article published with title ['Walkthrough : Running a visual 
     https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/docs/images/applitools_eys.PNG?raw=true)
 
 # Points to be remarked
+
+## External dependencies
+
+Katalon Studio has its own set of dependencies, and Applitools has its own. Nobody takes responsibility of making these two sets consistent. I think this would be the point which makes my hack operational or not.
+
+1. Applitools requires a lot of external libiraries. See ['Walkthrough : Running a visual test and reviewing test results' Getting SDK]( https://applitools.com/docs/topics/overview/walkthough-example.html) to see how to download the SDK Zip. The Java SDK contains 63 jar files.
+2. I registered [16 jar files](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/tree/master/Drivers) out of the Applitools SDK into the Katalon Studio's project, as [described in the Katalon document](https://docs.katalon.com/display/KD/External+Libraries).
+3. I have chosen 16 jar files by try-and-error steps. When I encounter a java.lang.NoClassDeffFoundErr, I looked for an appropriate jar file in the downloaded SDK, and put it into Katalon Studio. Therefore you are quite likely to encounter more of java.lang.NoClassDeffFoundError.
+
+## how to code
+
+As Test Case  [test01](https://github.com/kazurayam/UsingApplitoolsWithinKatalonStudio/blob/master/Scripts/test01/Script1523260020936.groovy) shows, the order of following steps is important. This works:
+```
+WebUI.openBrowser('')
+WebDriver innerDriver = DF.getWebDriver()
+Eyes eyes = createEyes()
+eyes.open(innerDriver, GlobalVariable.appName,
+     GlobalVariable.testName, viewportSize)
+```
+
+
+But this does not work:
+```
+WebDriver innerDriver = DF.getWebDriver()
+WebUI.openBrowser('')
+```
