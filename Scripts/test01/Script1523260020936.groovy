@@ -66,8 +66,8 @@ static private Eyes createEyes() {
         eyes.setBatch(batchInfo)
     }
     
-    // I needed to set PROXY to the Eyes
-    eyes.setProxy(new ProxySettings('http://172.24.2.10:8080'))
+    // kazurayam needed to set PROXY to the Eyes
+    //eyes.setProxy(new ProxySettings('http://172.24.2.10:8080'))
     
     return eyes
 }
