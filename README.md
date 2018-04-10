@@ -61,7 +61,7 @@ eyes.open(innerDriver, GlobalVariable.appName,
 ```
 First you open the browser by calling WebUI.openBrowser(), after that you should get the reference to the WebDriver object created by Katalon Studio.
 
-But this does not work:
+On the other hand the following code does not work:
 ```
 WebDriver innerDriver = DF.getWebDriver()
 WebUI.openBrowser('')
@@ -71,9 +71,3 @@ You will encounter an Exception which sais:
 ```
 Test Cases/test01 FAILED because (of) com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
 ```
-
-DriverFactory.getWebDriver() throwed exception if invoked before openBrowser()
-
-
-
-I hope this helps.
