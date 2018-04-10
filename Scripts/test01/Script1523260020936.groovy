@@ -27,6 +27,7 @@ import com.applitools.eyes.ProxySettings
 
 import com.kms.katalon.core.webui.driver.DriverFactory as DF
 import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 RectangleSize viewportSize = new RectangleSize(
     GlobalVariable.viewportSizeLandscapeWidth,
@@ -67,7 +68,11 @@ static private Eyes createEyes() {
     }
     
     // kazurayam needed to set PROXY to the Eyes
-    //eyes.setProxy(new ProxySettings('http://172.24.2.10:8080'))
+    def pi = RunConfiguration.getProxyInformation()
+    if (pi.proxyOption == 'MANUAL_CONFIG' && pi.proxyServerType == 'HTTP' &&
+        pi.proxyServerAddress.length() > 0 && pi.proxyServerPort > 0) {
+        eyes.setProxy(new ProxySettings("http://${pi.proxyServerAddress}:${pi.proxyServerPort}"))
+    }
     
     return eyes
 }
