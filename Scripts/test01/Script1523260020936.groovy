@@ -61,6 +61,7 @@ static private Eyes createEyes() {
     }
     Eyes eyes = new Eyes(serverURL)
     String apiKey = System.getenv("APPLITOOLS_API_KEY")
+	println "apiKey=${apiKey}"
     eyes.setApiKey(apiKey)
     if (GlobalVariable.runAsBatch) {
         BatchInfo batchInfo = new BatchInfo("Hello World 2 Batch")

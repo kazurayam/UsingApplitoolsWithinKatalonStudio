@@ -4,5 +4,6 @@
    <name>UsingApplitoolsWithinKatalonStudio</name>
    <tag></tag>
    <UUID>bb22810f-9b51-434e-9aa9-468336ebed0c</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
