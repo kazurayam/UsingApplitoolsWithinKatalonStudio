@@ -29,6 +29,67 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DF
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
+/**
+ * 
+ */
+Eyes createEyes() {
+	URI serverURL
+	try {
+		serverURL = new URI(GlobalVariable.serverURLstr)
+	} catch (URISyntaxException e) {
+		println("URI Exception")
+		return
+	}
+	Eyes eyes = new Eyes(serverURL)
+	String apiKey = System.getenv("APPLITOOLS_API_KEY")
+	println "apiKey=${apiKey}"
+	eyes.setApiKey(apiKey)
+	if (GlobalVariable.runAsBatch) {
+		BatchInfo batchInfo = new BatchInfo("Hello World 2 Batch")
+		eyes.setBatch(batchInfo)
+	}
+	
+	// kazurayam needed to set PROXY to the Eyes
+	def pi = RunConfiguration.getProxyInformation()
+	if (pi.proxyOption == 'MANUAL_CONFIG' && pi.proxyServerType == 'HTTP' &&
+		pi.proxyServerAddress.length() > 0 && pi.proxyServerPort > 0) {
+		eyes.setProxy(new ProxySettings("http://${pi.proxyServerAddress}:${pi.proxyServerPort}"))
+	}
+	
+	return eyes
+}
+
+/**
+ * 
+ */
+void handleResult(TestResults result) {
+	String resultStr
+	String url
+	if (result == null) {
+		resultStr = "Test aborted"
+		url = "undefined"
+	} else {
+		url = result.getUrl()
+		int totalSteps = result.getSteps()
+		if (result.isNew()) {
+			resultStr = "New Baseline created: ${totalSteps} steps"
+		} else if (result.isPassed()) {
+			resultStr = "All steps passed:     ${totalSteps} steps"
+		} else {
+			StringBuilder sb = new StringBuilder()
+			sb.append(  "Test Failed     :     ${totalSteps} steps\n")
+			sb.append(" matches=   ${result.getMatches()}\n")
+			sb.append(" missing=   ${result.getMissing()}\n")
+			sb.append(" mismatches=${result.getMismatches()}\n")
+			resultStr = sb.toString()
+		}
+		resultStr += "\n" + "results at " + url
+		WebUI.comment(resultStr)
+	}
+}
+
+// --------------------------------------------------------------------
+
 RectangleSize viewportSize = new RectangleSize(
     GlobalVariable.viewportSizeLandscapeWidth,
     GlobalVariable.viewportSizeLandscapeHeight)
@@ -51,55 +112,4 @@ eyes.checkWindow('After Click')
 TestResults result = eyes.close(false)
 WebUI.closeBrowser()
 
-static private Eyes createEyes() {
-    URI serverURL
-    try {
-        serverURL = new URI(GlobalVariable.serverURLstr)
-    } catch (URISyntaxException e) {
-        println("URI Exception")
-        return
-    }
-    Eyes eyes = new Eyes(serverURL)
-    String apiKey = System.getenv("APPLITOOLS_API_KEY")
-	println "apiKey=${apiKey}"
-    eyes.setApiKey(apiKey)
-    if (GlobalVariable.runAsBatch) {
-        BatchInfo batchInfo = new BatchInfo("Hello World 2 Batch")
-        eyes.setBatch(batchInfo)
-    }
-    
-    // kazurayam needed to set PROXY to the Eyes
-    def pi = RunConfiguration.getProxyInformation()
-    if (pi.proxyOption == 'MANUAL_CONFIG' && pi.proxyServerType == 'HTTP' &&
-        pi.proxyServerAddress.length() > 0 && pi.proxyServerPort > 0) {
-        eyes.setProxy(new ProxySettings("http://${pi.proxyServerAddress}:${pi.proxyServerPort}"))
-    }
-    
-    return eyes
-}
 
-static private void handleResult(TestResults result) {
-    String resultStr
-    String url
-    if (result == null) {
-        resultStr = "Test aborted"
-        url = "undefined"
-    } else {
-        url = result.getUrl()
-        int totalSteps = result.getSteps()
-        if (result.isNew()) {
-            resultStr = "New Baseline created: ${totalSteps} steps"
-        } else if (result.isPassed()) {
-            resultStr = "All steps passed:     ${totalSteps} steps"
-        } else {
-            StringBuilder sb = new StringBuilder()
-            sb.append(  "Test Failed     :     ${totalSteps} steps\n")
-            sb.append(" matches=   ${result.getMatches()}\n")
-            sb.append(" missing=   ${result.getMissing()}\n")
-            sb.append(" mismatches=${result.getMismatches()}\n")
-            resultStr = sb.toString()
-        }
-        resultStr += "\n" + "results at " + url
-        WebUI.comment(resultStr)
-    }
-}
