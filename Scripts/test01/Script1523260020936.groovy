@@ -27,6 +27,8 @@ import com.applitools.eyes.ProxySettings
 
 import com.kms.katalon.core.webui.driver.DriverFactory as DF
 import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.remote.RemoteWebDriver
+import org.openqa.selenium.support.events.EventFiringWebDriver
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 /**
@@ -100,7 +102,7 @@ WebUI.openBrowser('')
 // instanciate Eyes object based on the WebDriver object managed by Katalon Studio
 WebDriver innerDriver = DF.getWebDriver()
 Eyes eyes = createEyes()
-eyes.open(innerDriver,
+eyes.open(((((innerDriver) as EventFiringWebDriver).getWrappedDriver()) as RemoteWebDriver),
     GlobalVariable.appName, GlobalVariable.testName, viewportSize)
 
 WebUI.navigateToUrl('https://applitools.com/helloworld2')
